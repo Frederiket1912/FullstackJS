@@ -16,7 +16,7 @@
 
 5) Explain the terms JavaScript Engine (name at least one) and JavaScript Runtime Environment (name at least two)
 
-6)Explain (some) of the purposes with the tools Babel and WebPack and how they differ from each other.       Use examples from the exercises.
+6) Explain (some) of the purposes with the tools Babel and WebPack and how they differ from each other.       Use examples from the exercises.
 
 # Explain using sufficient code examples the following features in JavaScript (and node)
 1) Variable/function-Hoisting
