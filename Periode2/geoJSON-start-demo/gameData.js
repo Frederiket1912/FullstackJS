@@ -1,114 +1,57 @@
-const gameArea = 
-    {
-    "type": "Feature",
-    "properties": {},
-    "geometry": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            12.616939544677733,
-            55.6608359614475
-          ],
-          [
-            12.584152221679688,
-            55.6635471794298
-          ],
-          [
-            12.570419311523438,
-            55.658996099428364
-          ],
-          [
-            12.561664581298828,
-            55.64127089506216
-          ],
-          [
-            12.636165618896484,
-            55.63749235525952
-          ],
-          [
-            12.604236602783201,
-            55.64756765150652
-          ],
-          [
-            12.616939544677733,
-            55.6608359614475
-          ]
-        ]
-      ]
-    }
-  }
+const gameArea = {
+  type: "Polygon",
+  coordinates: [
+    [
+      [12.544240951538086, 55.77594546428934],
+      [12.549219131469727, 55.77502825125135],
+      [12.568359375, 55.77604201177451],
+      [12.578487396240234, 55.7767661102896],
+      [12.573423385620117, 55.79467119920912],
+      [12.57059097290039, 55.795877445664104],
+      [12.544240951538086, 55.77594546428934],
+    ],
+  ],
+};
+const players = [
+  {
+    type: "Feature",
+    properties: {
+      name: "Team1-inside",
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [12.567672729492188, 55.78670903555303],
+    },
+  },
+  {
+    type: "Feature",
+    properties: {
+      name: "Team2-inside",
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [12.561578750610352, 55.779758908094266],
+    },
+  },
+  {
+    type: "Feature",
+    properties: { name: "Team3-outside" },
+    geometry: {
+      type: "Point",
+      coordinates: [12.551965713500977, 55.788349856956444],
+    },
+  },
+  {
+    type: "Feature",
+    properties: { name: "Team4-outside" },
+    geometry: {
+      type: "Point",
+      coordinates: [12.568788528442383, 55.77396618813479],
+    },
+  },
+];
 
-  const players = [
-    {
-        "type": "Feature",
-        "properties": {"name":"Peter"},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            12.616939544677733,
-            55.64902060538697
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {"name":"Hans"},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            12.60457992553711,
-            55.65802771626143
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {"name":"Jacob"},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            12.612476348876953,
-            55.642142814028084
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {"name":"Emilie"},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            12.583637237548828,
-            55.64776138180531
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {"name":"Laura"},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            12.580032348632812,
-            55.65560665353519
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {"name":"Gurli"},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            12.58260726928711,
-            55.637686135397544
-          ]
-        }
-      }
-    ]
-
-  module.exports = {
-    gameArea,
-    players
-  }
+module.exports = {
+  gameArea,
+  players,
+};
