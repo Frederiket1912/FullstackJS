@@ -4,7 +4,7 @@ Frederik Elbo Thorup
 
 repo: https://github.com/Frederiket1912/FullstackJS/tree/master/Periode3/team_finder_app
 
-manifest: https://exp.host/@frederiket/team_finder_app/index.exp?sdkVersion=39.0.0 
+deployed: https://exp.host/@frederiket/team_finder_app/index.exp?sdkVersion=39.0.0 
 
 project page: https://expo.io/@frederiket/team_finder_app
 
