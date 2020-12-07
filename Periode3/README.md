@@ -4,10 +4,11 @@ Frederik Elbo Thorup
 
 repo: https://github.com/Frederiket1912/FullstackJS/tree/master/Periode3/team_finder_app
 
-deployed: https://exp.host/@frederiket/team_finder_app/index.exp?sdkVersion=39.0.0
-(kan logge ind med username: t1 og password: secret, sæt distance til forholdsvis meget hvis man vil se de to andre teams, de er i nordsjælland)
+manifest: https://exp.host/@frederiket/team_finder_app/index.exp?sdkVersion=39.0.0
 
-project page: https://expo.io/@frederiket/team_finder_app
+
+deployed: https://expo.io/@frederiket/team_finder_app  
+(kan logge ind med username: t1 og password: secret, sæt distance til forholdsvis meget hvis man vil se de to andre teams, de er i nordsjælland)
 
 **Backend:**
 
