@@ -52,7 +52,9 @@ Currently, there is a little to no code sharing possible between React apps on t
   - We use fetch and useEffect to communicate with our backend server.
   - See App.js in team_finder_app for example.
   8) Explain and Demonstrate ways to debug a React Native Application  
-  - 
+  - Read error messages.
+  - Use console.log().
+  - Chrome DeBugger.
   9) Explain and demonstrate how to use Native Device Features in a React Native/Expo app. 
   - We use the native device feature MapView in our app which is used to show a map with markers on it, to show the location of the person using the app aswel as other nearby players.  
   10) Explain and demonstrate a React Native Client that uses geo-components (Location, MapView, etc.)
